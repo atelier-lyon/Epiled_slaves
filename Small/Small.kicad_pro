@@ -32,7 +32,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|323850|1085850|380d9273-8fa8-4fd2-9012-52e68e5d0980|ea9b7133-9875-488b-b2a1-573b300355de|||",
+      "multiple_net_names|323850|1187450|76a9ff86-6971-42ce-a773-6561a0c26379|24d76a8b-e236-415f-8d12-9b9e24d65e86|||"
+    ],
     "meta": {
       "version": 0
     },
