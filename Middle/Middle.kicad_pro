@@ -48,8 +48,41 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "clearance|177489521|187747232|a2a8587e-ce60-4d24-9275-754b6051f4ad|17a15d34-532e-41f6-8fa5-648ab571f8fe",
+        "clearance|177763584|188845897|9724a91f-b72a-4e91-b944-91492560f446|17a15d34-532e-41f6-8fa5-648ab571f8fe",
+        "clearance|178589906|186001675|9914e43d-d7cd-47f9-abbe-58b78968f02e|4ef3cf64-c5dd-4b5b-ac70-bf35045f12fe",
+        "clearance|179221571|186747232|2d1255d0-09ee-4f81-9419-9fa8922f571a|4ef3cf64-c5dd-4b5b-ac70-bf35045f12fe",
+        "malformed_courtyard|122020080|117490136|ab8ac0fa-30ce-47df-9846-1f0afe328f3a|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|126236326|107547382|ab8ac0fa-30ce-47df-9846-1f0afe328f3a|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|162963674|107547382|5cfd4eef-3460-41bd-bd2a-82e97a7376a6|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|167179920|117490136|5cfd4eef-3460-41bd-bd2a-82e97a7376a6|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|180079518|190602237|9377263e-6281-4031-ac65-13bcae5e728a|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|199240600|251240000|5ae747ee-e6ad-43c8-910a-c463b3a7547c|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|199240600|252560000|5ae747ee-e6ad-43c8-910a-c463b3a7547c|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|209959400|251240000|5ae747ee-e6ad-43c8-910a-c463b3a7547c|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|209959400|252560000|5ae747ee-e6ad-43c8-910a-c463b3a7547c|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|222963674|211470431|b124b321-9059-49a0-b242-2e1af9c4697b|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|227179920|221413185|b124b321-9059-49a0-b242-2e1af9c4697b|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|62020080|221413185|80ef646a-06ab-41db-83fe-e66ed2f63d8b|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|66236326|211470431|80ef646a-06ab-41db-83fe-e66ed2f63d8b|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|79240600|251240000|93157f4b-360f-4a1b-8303-1e08a83870d4|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|79240600|252560000|93157f4b-360f-4a1b-8303-1e08a83870d4|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|89959400|251240000|93157f4b-360f-4a1b-8303-1e08a83870d4|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|89959400|252560000|93157f4b-360f-4a1b-8303-1e08a83870d4|00000000-0000-0000-0000-000000000000",
+        "solder_mask_bridge|177489521|187747232|17a15d34-532e-41f6-8fa5-648ab571f8fe|a2a8587e-ce60-4d24-9275-754b6051f4ad",
+        "solder_mask_bridge|178455093|188446655|04ef414e-74c7-46a0-998f-cc754c257a39|9724a91f-b72a-4e91-b944-91492560f446",
+        "solder_mask_bridge|179221571|186747232|4ef3cf64-c5dd-4b5b-ac70-bf35045f12fe|2d1255d0-09ee-4f81-9419-9fa8922f571a",
+        "solder_mask_bridge|180187144|187446655|0eedce94-1f90-438e-887c-3f2ffeacd091|9914e43d-d7cd-47f9-abbe-58b78968f02e",
+        "track_dangling|243272620|243300000|cd9bb94b-0107-452d-b708-3e3d59a83be2|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -76,7 +109,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "warning",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
@@ -165,8 +198,18 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
