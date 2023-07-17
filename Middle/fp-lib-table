@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "eec")(type "KiCad")(uri "C:/Users/adrie/Downloads/IC_Texas Instruments_SN74LV4052APW/eec.pretty")(options "")(descr ""))
+)
